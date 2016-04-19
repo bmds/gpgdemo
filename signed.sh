@@ -4,4 +4,5 @@ export GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 
 git add .
-git commit -m "Some simple updates!"
+git commit -S -m "This is really me!"
+git push
